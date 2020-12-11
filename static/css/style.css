@@ -1,0 +1,107 @@
+h1 {
+  color: rgb(219, 17, 51);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+h2 {
+  color: black;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+  background-color: white;
+}
+
+.table-header {
+  color: rgb(219, 17, 51);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+
+}
+a {
+  align-items: center;
+}
+
+.jumbo{
+  background-color: white;
+} 
+
+.header {
+  margin-top: 30px;
+  padding-top: 15px;
+}
+
+nav {
+  align-content: center;
+}
+
+.align {
+  text-align: left;
+}
+.navbar2{
+  background-color: #a80f0f;
+  text-decoration-color: #0c0c0c;;
+}
+
+h6 {
+  color: black;
+  text-align: center;
+  text-emphasis: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt
+}
+img {
+  max-width: 100%;
+}
+
+.custom-bg-light {
+  background-color: #9abdeb;
+}
+
+.navbar-default {
+  background: #7a0a0a;
+}
+.navbar-header {
+  background: #7a0a0a;
+}
+.dataframe {
+  align-content: center;
+
+
+}
+ /* Remove the navbar's default margin-bottom and rounded borders */ 
+ .navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #a80f0f;
+  text-decoration-color: #0c0c0c;;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #a80f0f;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+#world
+ {
+  height: 500px;
+  width: 100%;
+}
+
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; 
+}
+
+}
